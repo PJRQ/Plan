@@ -381,9 +381,21 @@ const ADMIN_PASS  = 'riasadmin2024';
 // type the 9-digit number (no spaces, no prefix), copy the hash, paste below.
 // Leave the array EMPTY to allow any phone number.
 // Example entry: '8a9bcf02e1d4f3c6b7a5e8f2c1d0e9b3a4f5c6d7e8f9a0b1c2d3e4f5a6b7c8d9'
-const ALLOWED_HASHES = [
-  // paste hashes here, one per line, as strings
-];
+const ALLOWED_HASHES = ['259b641d8bba635ca0e1fdf446353b0d341823aa2a72f34762a4e8a605dc45ec',
+'49d9bfa7d825688c9f2f99525ac5f163277a17286577fa3bf0502a8773bef959',
+'cc6b57a5a4e6bbaed42b6cebd05ebfd241346f48b0e5ec3248977a1f4c0d48d8',
+'67faa43f707269325fe45cf8bcf5ad60331f3f13af44feb61f0f781e8b490167',
+'07d0f62c6eb148fc20651d7fc43b2551920c4521e2d4824017b13b5c89d5cd9f',
+'87a04d188be5ac2d7fdd7c156c4885f85429975b66ae8a6f7f9cd55a539b5bf7',
+'c1b55387e40484007811ca2228f41f1f8b4cbadb7bccab737edcd2b063bddb9e',
+'636d110b6b549e465c5d928c0b871008d592920a0febf4e3b595e867af40fa5f',
+'185ce8fc660c5607c09afb444d81f918300a1fc7737d780e4a6c0ed5871c6dd6',
+'030466a6580d71a19fce62fa66a49985b7ebb7ba0432c706c97b04fe2fce53d2',
+'06902e72b981515b9454eb0d27c47568bc4cb8d47bb306105935e3987157bc47',
+'2275e96b4abce02b54ff4724c1cd10567fe8b62fdb5f6d8cf195512174b48029',
+'aa8eece4400bd1d8bde6fcb3ac84bb7c856486a719b6e9b580d06651d682ebe9',
+'8e9b36c2af158f88e43318b7cccb6762191c3e0656c9cab7a285d9bb84f1b0fe',
+'cdf5d02aa175423630da767b79b196b7ad96082ce643caee1879949ce12182ce',];
 
 // Hash a phone number using SHA-256 (returns a hex string promise)
 async function hashPhone(phone){
